@@ -1,12 +1,14 @@
 # Astar_Dijkstras
 Author: Jing Li
+
 Compare Dijkstra's algorithm and A star algorithm in grid map which conatins different typies of terrain.
 Python version: 3.5.0
 This script contain 4 sections:
-   section 1. class: PriorityQueue, Graph, gridMap
-   section 2. function: SearchforPath, reconstruct_path, heuristic_cost_estimate, plotresult
-   section 3. Test: TestgridMap, TestOptimalPath
-   section 4. Use classes, functions to set up, solve problem and plot results
+   
+    section 1. class: PriorityQueue, Graph, gridMap
+    section 2. function: SearchforPath, reconstruct_path, heuristic_cost_estimate, plotresult
+    section 3. Test: TestgridMap, TestOptimalPath
+    section 4. Use classes, functions to set up, solve problem and plot results
    
 How to set up a grid map and use the two algorithm:
   1. set up.
@@ -21,7 +23,7 @@ How to set up a grid map and use the two algorithm:
           direction4: True indicates that in grid map it can move toward 4 dirctions(east, west, north and south).
                       False indicates that in grid map it can move toward 8 directions(east, west, 
                       north, south, southest, southwest, northeast, northeast)
- 2. given a start point and a end point, search for shortest path by the two algorithm
+  2. given a start point and a end point, search for shortest path by the two algorithm
    function SearchforPath is used to search for optimal path with Dijkstra's or A star.
          
          Augments passed to this function:
