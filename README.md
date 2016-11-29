@@ -11,7 +11,7 @@ This script contain 4 sections:
     section 4. Use classes, functions to set up, solve problem and plot results
    
 How to set up a grid map and use the two algorithm:
-  1. set up.
+  1. Set up.
     Generate a gird map which contain information about vertices, weights, edges
     coordinates, and types of terrain by class gridMap
          
@@ -24,7 +24,8 @@ How to set up a grid map and use the two algorithm:
                       False indicates that in grid map it can move toward 8 directions(east, west, 
                       north, south, southest, southwest, northeast, northeast)
                       
-  2. given a start point and a end point, search for shortest path by the two algorithm
+  
+2.Given a start point and a end point, search for shortest path by the two algorithm
    function SearchforPath is used to search for optimal path with Dijkstra's or A star.
          
          Augments passed to this function:
@@ -37,7 +38,7 @@ How to set up a grid map and use the two algorithm:
        direction4: True indicates that in grid map it can move toward 4 dirctions(east, west, north and south).
                    False indicates that in grid map it can move toward 8 directions(east, west, 
                       north, south, southest, southwest, northeast, northeast)
-   3. visualize the results.
+3. visualize the results.
      function plotresults is used to plot the results.
 
 
