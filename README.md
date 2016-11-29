@@ -23,6 +23,7 @@ How to set up a grid map and use the two algorithm:
           direction4: True indicates that in grid map it can move toward 4 dirctions(east, west, north and south).
                       False indicates that in grid map it can move toward 8 directions(east, west, 
                       north, south, southest, southwest, northeast, northeast)
+                      
   2. given a start point and a end point, search for shortest path by the two algorithm
    function SearchforPath is used to search for optimal path with Dijkstra's or A star.
          
